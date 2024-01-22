@@ -351,6 +351,7 @@ function Home() {
                   type="text"
                   className="input1"
                   onChange={(e) => setPaperTitle(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -360,6 +361,7 @@ function Home() {
                   type="text"
                   className="input1"
                   onChange={(e) => setFirstAuth(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -369,6 +371,7 @@ function Home() {
                   type="text"
                   className="input1"
                   onChange={(e) => setCorresAuth(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -378,6 +381,7 @@ function Home() {
                   type="text"
                   className="input1"
                   onChange={(e) => setThirdAuth(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -387,6 +391,7 @@ function Home() {
                   type="text"
                   className="input1"
                   onChange={(e) => setFourthAuth(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -396,6 +401,7 @@ function Home() {
                   type="text"
                   className="input1"
                   onChange={(e) => setInstAffil(e.target.value)}
+                  required=""
                 />
               </td>
             </tr>
@@ -428,6 +434,7 @@ function Home() {
                   type="text"
                   className="input2"
                   onChange={(e) => setWordCount1(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -446,6 +453,7 @@ function Home() {
                   type="file"
                   className="input2"
                   ref={fileInputRef}
+                  required=""
                 />
               </td>
             </tr>
@@ -477,6 +485,7 @@ function Home() {
                   type="text"
                   className="input3"
                   onChange={(e) => setWordCount2(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -486,6 +495,7 @@ function Home() {
                   type="text"
                   className="input3"
                   onChange={(e) => setFigureCount(e.target.value)}
+                  required=""
                 />
               </td>
               <td>
@@ -495,6 +505,7 @@ function Home() {
                   type="file"
                   className="input3"
                   ref={fileInputRef2}
+                  required=""
                 />
               </td>
             </tr>
@@ -526,6 +537,7 @@ function Home() {
                   type="text"
                   className="input4"
                   onChange={(e) => setWordCount3(e.target.value)}
+                  required=""
                 />
               </td>
               <td style={{ paddingLeft: 80 }}>
@@ -535,6 +547,7 @@ function Home() {
                   type="file"
                   className="input4"
                   ref={fileInputRef3}
+                  required=""
                 />
               </td>
             </tr>

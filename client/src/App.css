@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .addItems{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.items{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+} */
+
+/* Kaveri CSS */
+body{
+  /* margin:10px;
+  padding: 5px; */
+}
+.head1{
+  background-color:#bebfc0;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.head2{
+  background-color: #007ea3;
+  height: 20px;
+  margin-bottom: 0px;
+  display:flex;
+}
+/* #0b392c */
+.body{
+  /* background-color:#df0000; */
+  height: 100vh;
+}
+
+.top{
+  margin-top: 20px;
+}
+
+#left{
+  /* margin-right: 1200px; */
+  margin-top: 40px;
+  position: absolute;
+  display: flex;
+  padding: 5px;
+  margin: 30px;
+}
+
+#right{
+  /* background-color: black;
+  border-radius: 20px;
+  color: #fff; */
+  /* margin-left: 1300px; */
+  position: absolute;
+  right: 0;
+  padding: 2px;
+  margin-right: 23px;
+  display: flex;
+}
+
+.content{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 60px;
+}
+
+.table1,.table2,.table3,.table4{
+  border-collapse: collapse;
+  margin:20px auto;
+  font-weight: bold;
+  background-color:  #007ea3;
+  text-align:center;
+  color:white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* .table4{
+  border-collapse: collapse;
+  margin-left:130px;
+  margin-bottom: 25px;
+  font-size:1em;
+  background-color:  #007ea3;
+  text-align:center;
+  color:white;
+} */
+
+
+
+.input1,.input2,.input3,.input4{
+  margin: 5px;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.input1,.input2[type=text]{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.input2 button{
+  background-color: black;
+}
+#disable1,#disable2,#disable3,#disable4{
+  background-color:black;
+  color: #ffff;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: 1px solid black;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 135px;
+  cursor:pointer;
+  font-size: 16px;
+}
+
+#disable1:hover,#disable2:hover,#disable3:hover,#disable4:hover{
+  background-color: grey;
+}
+
+
+.table1 thead tr td{
+  padding: 15px;
+  margin:5px;
+  font-size: 18px;
+}
+.table2 tr td{
+  padding: 4px;
+  font-size: 20px;
+}
+.table3 tr td{
+  padding: 4px;
+  font-size: 20px;
+}
+.table4 tr td{
+  padding: 4px;
+  font-size: 20px;
+}
+
+
+.table1{
+  width:1230px;
+}
+
+.table2,.table3{
+  width:1230px;
+  margin-top: 120px;
+}
+.table4{
+  width:1230px;
+  margin-top: 120px;
+}
+
+.foot{
+  background-color: #bebfc0;
+  height: 50px;
+  margin-top: 180px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+ 
+}
+
+.foot2{
+ background-color: #007ea3;
+ height: 20px;
+
+}
+
+img{
+  width:55px;
+
+}
+
+
+
+
+
+.btno{
+margin:8px;
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+background-color: #007ea3;
+padding: 10px 30px;
+border: solid #ffffff 4px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.btno:hover{
+transition : 1000ms;
+padding: 10px 21px;
+transform : translateY(-0px);
+background-color: #007ea3c4;
+color: #ffffff;
+border: solid 4px #ffffff;
+}
+
+.hellobtn{
+  position: absolute;
+  right: 0;
+  margin-right: 150px;
+}
